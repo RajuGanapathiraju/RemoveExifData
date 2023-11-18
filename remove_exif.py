@@ -9,7 +9,7 @@ def strip_exif(file_path):
     if exif_data is not None:
         # Remove the Exif data
         exif_dict = piexif.load(exif_data)
-        exif_dict.pop('Exif', None)
+        exif_dict.pop('exif', None)
         exif_bytes = piexif.dump(exif_dict)
         pil_image.info['exif'] = exif_bytes
 
