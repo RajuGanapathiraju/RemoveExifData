@@ -14,17 +14,6 @@ Install dependencies using the following command:
    ```bash
    pip install piexif Pillow
 
-1. Modify the script to specify your input and output file paths:
-
-input_file = '/path/to/your/input/image.jpg'
-output_file = '/path/to/your/output/image_without_exif.jpg'
-
-2. Run the script:
-
-python image_exif_remover.py
-
-This will read the input image, remove the Exif data, and save the new image without Exif information.
-
 
 
 
