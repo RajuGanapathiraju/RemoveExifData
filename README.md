@@ -15,7 +15,6 @@ output_file = '/path/to/your/output/image_without_exif.jpg'
 
 python remove_exif.py
 
-
 ### Prerequisites
 
 Make sure you have the required dependencies installed:
