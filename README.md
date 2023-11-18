@@ -15,6 +15,9 @@ output_file = '/path/to/your/output/image_without_exif.jpg'
 
 python remove_exif.py
 
+This will read the input image, remove the Exif data, and save the new image without Exif information.
+
+
 ### Prerequisites
 
 Make sure you have the required dependencies installed:
